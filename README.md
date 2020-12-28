@@ -5,7 +5,7 @@
 A company that designs operating systems, wants to build a major apps store into their user interface. To this end, they want to know whether Google Play
 apps have higher reviews on average than Apple Store apps (or vice versa) , as they’re intending to strike a deal with just one of these companies. 
 
-To complete this project, we’ll work through a series of steps known as the Data Science Pipeline, or DSP. The DSP is a general and fairly broad sequence of steps data
+To help this company, we’ll work through a series of steps known as the Data Science Pipeline, or DSP. The DSP is a general and fairly broad sequence of steps data
 scientists use to tackle and solve business problems. While working on this project,
 
 We’ll complete each step of the DSP, including:
