@@ -8,9 +8,33 @@ apps have higher reviews on average than Apple Store apps (or vice versa) , as t
 To help this company, we’ll work through a series of steps known as the Data Science Pipeline, or DSP. The DSP is a general and fairly broad sequence of steps data
 scientists use to tackle and solve business problems. While working on this project.
 
-We’ll complete each step of the DSP, including:
- 1. Sourcing and loading data
- 2. Cleaning and transforming data
- 3. Visualizing and modeling data
- 4. Evaluating, presenting findings, and concluding our work.
+## Stages of the project
+
+1. Sourcing and loading 
+    * Load the two datasets
+    * Pick the columns that we are going to work with 
+    * Subsetting the data on this basis 
+ 
+ 
+2. Cleaning, transforming and visualizing
+    * Check the data types and fix them
+    * Add a `platform` column to both the `Apple` and the `Google` dataframes
+    * Changing the column names to prepare for a join 
+    * Join the two data sets
+    * Eliminate the `NaN` values
+    * Filter only those apps that have been reviewed at least once
+    * Summarize the data visually and analytically (by the column `platform`)  
+  
+  
+3. Modelling 
+    * Hypothesis formulation
+    * Getting the distribution of the data
+    * Permutation test 
+
+
+4. Evaluating and concluding 
+    * What is our conclusion?
+    * What is our decision?
+    * Other models we could have used. 
+    
 
