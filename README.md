@@ -8,6 +8,10 @@ apps have higher reviews on average than Apple Store apps (or vice versa) , as t
 To help this company, we’ll work through a series of steps known as the Data Science Pipeline, or DSP. The DSP is a general and fairly broad sequence of steps data
 scientists use to tackle and solve business problems. While working on this project.
 
+Datasets source: 
+Apple Store: https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps
+Google Play: https://www.kaggle.com/lava18/google-play-store-apps
+
 ## Stages of the project
 
 1. Sourcing and loading 
