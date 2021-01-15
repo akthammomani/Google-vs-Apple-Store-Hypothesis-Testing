@@ -30,7 +30,7 @@ scientists use to tackle and solve business problems.
    * Summarize the data visually and analytically (by the column `platform`)  
   
   
-3. Modelling 
+3. Modelling:
    * Hypothesis formulation:  
       - **Null hypothesis** **H<sub>null</sub>**: the observed difference in the mean rating of Apple Store and Google Play apps is due to chance (and thus not due to the platform).
       - **Alternate hypothesis** **H<sub>alternative</sub>**: the observed difference in the average ratings of apple and google users is not due to chance (and is actually due to platform)
@@ -38,9 +38,8 @@ scientists use to tackle and solve business problems.
    * Getting the distribution of the data
    ![google_apple](https://user-images.githubusercontent.com/67468718/104695002-e4f67a00-56c0-11eb-8043-7349c0252ca9.JPG)
    
-   * Permutation test 
-   Since the data aren't normally distributed, we're using a non-parametric test here. This is simply a label for statistical tests used when the data aren't normally distributed. These tests are extraordinarily powerful due to how few assumptions we need to make.
-   
+   * Permutation test:
+      - Since the data aren't normally distributed, we're using a non-parametric test here. This is simply a label for statistical tests used when the data aren't normally distributed. These tests are extraordinarily powerful due to how few assumptions we need to make.
       - The difference in the means for Permutation1 (0.001103) now looks hugely different to our observed difference of 0.14206.
       - It's sure starting to look like our observed difference is significant, and that the Null is false.
       - platform does impact on ratings but to be sure, let's create 10,000 permutations, calculate the mean ratings for Google and Apple apps and the difference between these for each one, and then take the average of all of these differences.
