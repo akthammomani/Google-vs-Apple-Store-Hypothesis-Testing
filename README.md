@@ -32,6 +32,7 @@ scientists use to tackle and solve business problems.
   
 3. Modelling 
    * Hypothesis formulation:  
+    * **H<sub>null</sub>**: the observed difference in the mean rating of Apple Store and Google Play apps is due to chance (and thus not due to the platform).
    * Getting the distribution of the data
    * Permutation test 
 
