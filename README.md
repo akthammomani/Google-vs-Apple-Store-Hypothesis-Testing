@@ -31,16 +31,9 @@ scientists use to tackle and solve business problems.
   
   
 3. Modelling 
-   * Hypothesis formulation: 
-    1. Null hypothesis is just: 
-      * **H<sub>null</sub>**: the observed difference in the mean rating of Apple Store and Google Play apps is due to chance (and thus not due to the platform).
-    2. The more interesting hypothesis is called the **Alternate hypothesis**:
-      * **H<sub>alternative</sub>**: the observed difference in the average ratings of apple and google users is not due to chance (and is actually due to platform)
-    3. We're also going to pick a **significance level** of 0.05. 
-   
+   * Hypothesis formulation:  
    * Getting the distribution of the data
    * Permutation test 
-
 
 4. Evaluating and concluding 
    * What is our conclusion?
