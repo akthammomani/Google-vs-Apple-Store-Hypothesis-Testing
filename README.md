@@ -32,7 +32,9 @@ scientists use to tackle and solve business problems.
   
 3. Modelling 
    * Hypothesis formulation:  
-    * **H<sub>null</sub>**: the observed difference in the mean rating of Apple Store and Google Play apps is due to chance (and thus not due to the platform).
+      - **H<sub>null</sub>**: the observed difference in the mean rating of Apple Store and Google Play apps is due to chance (and thus not due to the platform).
+      - **H<sub>alternative</sub>**: the observed difference in the average ratings of apple and google users is not due to chance (and is actually due to platform)
+      - We're also going to pick a **significance level** of 0.05. 
    * Getting the distribution of the data
    * Permutation test 
 
